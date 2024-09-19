@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Assignments</title>
+</head>
+<body>
+    <h1>Detail Form</h1>
+    <hr>
+    <p>Please fill the following form and provide your correct details</p>
+    <br>
+
+    <label for="fname">First Name*</label>
+    <input type="text" placeholder="Your First Name..." id="fname" required>
+    <label for="lname">Last Name</label>
+    <input type="text" placeholder="Your Last Name..." id="lname">
+    <h6>* denotes data is required</h6>
+    <br><hr>
+    <label for="mail">Email*</label>
+    <input type="email" placeholder="Enter Your Mail" id="mail">
+    <h6>* denotes data is required</h6>
+    <label for="pass">Password</label>
+    <input type="password" placeholder="Enter Password" id="pass" min="8">
+    <br><br><hr>
+    <form action="./index.html" method="GET">
+    <label for="gender">Select your gender :</label>
+    <br><br>
+    <input type="radio" name="rb" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="rb" value="female">
+    <label for="female">Female</label>
+    <input type="radio" name="rb" value="other">
+    <label for="other">Other</label>
+    <hr>
+    <p>Favorite Food: </p>
+    <input type="checkbox" name="Rajma Chawal" checked>
+    <label for="Rajma Chawal">Rajma Chawal</label>
+    <input type="checkbox" name="Chicken Murga">
+    <label for="Chicken Murga">Chicken Murga</label>
+    <input type="checkbox" name="Spring Roll">
+    <label for="Spring Roll">Spring Roll</label>
+    <input type="checkbox" name="Coffee">
+    <label for="Coffee">Coffee</label>
+    <br><hr>
+    <p>Hit <kbd>ENTER</kbd> to Submit</p>
+    <p>Hit <kbd>Shift</kbd> to Reset</p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <hr>
+</form>
+</body>
+</html>

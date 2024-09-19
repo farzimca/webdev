@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    color: white;
+}
+.div1{
+    width: 100%;
+}
+iframe{
+    border: 12px solid red;
+    padding: 23px;
+    background-color: white;
+}
+
+.inputx1{
+    height: 20px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.inx2{
+    background-color: yellow;
+    border: 7px solid red;
+    border-radius: 19px;
+    color: black;
+    padding: 4px;
+}
+
+div > h3{
+    font-style: italic;
+}
